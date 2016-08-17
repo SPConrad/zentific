@@ -1,0 +1,59 @@
+@media screen and (max-width: 450px){
+
+	.footerItem {
+		width: 100%;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	
+	.zentific-center-container {
+		margin-top: 
+	}
+	
+	.logo-container {
+		width: 100%;
+	}
+
+	.zentific-logo {
+		display: block;
+		margin: auto;	
+		max-width: 100%;
+		max-height: 100%;
+		height: auto;
+		width: auto;
+	}
+
+	.info-container{
+		width: 100%;
+		margin: auto;
+	}
+
+	.row {
+		margin: 0;
+	}
+}
+
+
+@media screen and (min-width: 751px){
+
+	.zentific-center-container {			
+		height: 350px;
+		overflow: ;
+		top: 50%;
+		position: absolute;
+		margin-top: -200px !important;
+	}
+
+	.row {
+		display: flex;
+	}
+
+	.logo-container {
+	}
+
+	.info-container{
+		text-align: justify;
+	}
+}
