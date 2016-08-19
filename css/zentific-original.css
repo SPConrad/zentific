@@ -19,15 +19,27 @@ body {
     background-color: #7daeee;*
     color: white;*/
     height: 100vh;
+
+    overflow-x: hidden; 
+}
+
+.zentific-center-container {
+    width: 1920px;
+    max-width: 100%;
+
+    height: 1080px;
+    max-height: 90%;
+}
+
+.info-container, .contact-container{
+    text-align: justify;
 }
 
 .row {
-    max-height: 100%;
+    height: 100%;
+    width: 100%;
 }
 
-#p {
-	text-align: justify;
-}
 
 .zentific-logo {
     display: block;
